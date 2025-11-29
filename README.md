@@ -16,25 +16,25 @@ This application allows users to view, add, update, and delete coffee items from
 
 ## 🏗️ Architecture & Workflow
 
-[cite_start]The application follows a standard serverless flow as illustrated in the architecture diagram[cite: 13]:
+The application follows a standard serverless flow as illustrated in the architecture diagram[cite: 13]:
 
-1.  [cite_start]**User Access**: Users visit the website URL served by **Amazon CloudFront** (CDN) for low latency[cite: 14].
-2.  [cite_start]**Static Hosting**: CloudFront fetches the React build files (HTML, CSS, JS) from a private **Amazon S3 Bucket**[cite: 15].
-3.  [cite_start]**Authentication**: Users log in using **AWS Cognito**[cite: 16]. [cite_start]Upon successful login, the frontend receives a JWT (JSON Web Token)[cite: 17].
-4.  [cite_start]**API Requests**: The React app sends HTTP requests (GET, POST, PUT, DELETE) to **Amazon API Gateway**[cite: 18]. [cite_start]These requests include the JWT for authorization[cite: 19].
-5.  [cite_start]**Business Logic**: API Gateway routes the request to the specific **AWS Lambda** function responsible for that action (e.g., `/create` triggers the create Lambda)[cite: 20].
-6.  [cite_start]**Data Persistence**: The Lambda function performs the necessary operation on the **Amazon DynamoDB** table[cite: 21].
+1.  **User Access**: Users visit the website URL served by **Amazon CloudFront** (CDN) for low latency[cite: 14].
+2.  **Static Hosting**: CloudFront fetches the React build files (HTML, CSS, JS) from a private **Amazon S3 Bucket**[cite: 15].
+3.  **Authentication**: Users log in using **AWS Cognito**[cite: 16]. [cite_start]Upon successful login, the frontend receives a JWT (JSON Web Token)[cite: 17].
+4.  **API Requests**: The React app sends HTTP requests (GET, POST, PUT, DELETE) to **Amazon API Gateway**[cite: 18]. [cite_start]These requests include the JWT for authorization[cite: 19].
+5.  **Business Logic**: API Gateway routes the request to the specific **AWS Lambda** function responsible for that action (e.g., `/create` triggers the create Lambda)[cite: 20].
+6.  **Data Persistence**: The Lambda function performs the necessary operation on the **Amazon DynamoDB** table[cite: 21].
 
 ## 🛠️ Tech Stack
 
-* [cite_start]**Frontend**: React.js, Vite, React Router, Axios [cite: 23]
-* [cite_start]**Cloud Provider**: Amazon Web Services (AWS) [cite: 24]
-* [cite_start]**Infrastructure**: [cite: 25]
-    * [cite_start]**S3 & CloudFront**: Frontend hosting [cite: 26]
-    * [cite_start]**Cognito**: User Identity & Access Management [cite: 27]
-    * [cite_start]**API Gateway**: REST API endpoint management [cite: 28]
-    * [cite_start]**Lambda**: Serverless compute (Node.js) [cite: 29]
-    * [cite_start]**DynamoDB**: NoSQL Database [cite: 30]
+* **Frontend**: React.js, Vite, React Router, Axios [cite: 23]
+* **Cloud Provider**: Amazon Web Services (AWS) [cite: 24]
+* **Infrastructure**: [cite: 25]
+    * **S3 & CloudFront**: Frontend hosting [cite: 26]
+    * **Cognito**: User Identity & Access Management [cite: 27]
+    * **API Gateway**: REST API endpoint management [cite: 28]
+    * **Lambda**: Serverless compute (Node.js) [cite: 29]
+    * **DynamoDB**: NoSQL Database [cite: 30]
 
 ## 📂 Project Structure
 
