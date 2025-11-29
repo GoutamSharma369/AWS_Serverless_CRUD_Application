@@ -2,7 +2,9 @@
 
 A full-stack serverless web application designed to manage a coffee shop menu[cite: 1, 2]. [cite_start]This project demonstrates a cloud-native architecture using **AWS Services** to handle frontend hosting, authentication, API management, and database operations[cite: 3].
 
-![Project Architecture](path/to/your/image.png)
+![Project Architecture]
+<img width="899" height="539" alt="image" src="https://github.com/user-attachments/assets/9698aa97-4b39-4368-96e3-4d4bdf1d2666" />
+
 *(Replace the path above with your actual image path)* [cite: 4]
 
 ## 🚀 Project Overview
