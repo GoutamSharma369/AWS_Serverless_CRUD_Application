@@ -3,16 +3,16 @@
 A full-stack serverless web application designed to manage a coffee shop menu[cite: 1, 2]. [cite_start]This project demonstrates a cloud-native architecture using **AWS Services** to handle frontend hosting, authentication, API management, and database operations[cite: 3].
 
 ![Project Architecture](path/to/your/image.png)
-[cite_start]*(Replace the path above with your actual image path)* [cite: 4]
+*(Replace the path above with your actual image path)* [cite: 4]
 
 ## 🚀 Project Overview
 
-[cite_start]This application allows users to view, add, update, and delete coffee items from a menu[cite: 6]. [cite_start]It leverages a **Serverless** architecture to ensure scalability and cost-efficiency[cite: 7].
+This application allows users to view, add, update, and delete coffee items from a menu[cite: 6]. [cite_start]It leverages a **Serverless** architecture to ensure scalability and cost-efficiency[cite: 7].
 
-* [cite_start]**Frontend**: A React application (Vite) that provides a responsive user interface[cite: 8].
-* [cite_start]**Backend**: AWS Lambda functions serving as microservices for CRUD operations[cite: 9].
-* [cite_start]**Database**: Amazon DynamoDB for NoSQL data storage[cite: 10].
-* [cite_start]**Auth**: AWS Cognito for secure user authentication[cite: 11].
+* **Frontend**: A React application (Vite) that provides a responsive user interface[cite: 8].
+* **Backend**: AWS Lambda functions serving as microservices for CRUD operations[cite: 9].
+* **Database**: Amazon DynamoDB for NoSQL data storage[cite: 10].
+* **Auth**: AWS Cognito for secure user authentication[cite: 11].
 
 ## 🏗️ Architecture & Workflow
 
