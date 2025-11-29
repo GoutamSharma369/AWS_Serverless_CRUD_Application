@@ -1,6 +1,6 @@
 # ☕ Serverless Coffee Shop Application
 
-[cite_start]A full-stack serverless web application designed to manage a coffee shop menu[cite: 1, 2]. [cite_start]This project demonstrates a cloud-native architecture using **AWS Services** to handle frontend hosting, authentication, API management, and database operations[cite: 3].
+A full-stack serverless web application designed to manage a coffee shop menu[cite: 1, 2]. [cite_start]This project demonstrates a cloud-native architecture using **AWS Services** to handle frontend hosting, authentication, API management, and database operations[cite: 3].
 
 ![Project Architecture](path/to/your/image.png)
 [cite_start]*(Replace the path above with your actual image path)* [cite: 4]
