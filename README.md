@@ -38,6 +38,8 @@ The application follows a standard serverless flow as illustrated in the archite
 
 ## 📂 Project Structure
 
+```test
+
 AWS-SERVERLESS/
 ├── Frontend/                 # React Application
 │   ├── src/
@@ -51,7 +53,7 @@ AWS-SERVERLESS/
 │   │   └── delete/           # Delete Item Logic
 │   └── nodejs/               # Shared dependencies layer (node_modules)
 └── README.md
-
+````
 ## ⚙️ Setup & Deployment
 
 > **Note:** Ensure you have the AWS CLI configured and Node.js installed on your machine before proceeding.
